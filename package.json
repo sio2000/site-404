@@ -1,0 +1,8 @@
+{
+  "name": "site-404",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rm -rf dist && mkdir -p dist && cp index.html 404.html _redirects dist/"
+  }
+}
